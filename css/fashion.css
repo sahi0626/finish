@@ -1,0 +1,165 @@
+#menu_fix{
+    position: fixed;
+    background-color: rgba(89, 0, 255, 0.614);
+    display: flex;
+    z-index: 10;
+    justify-content: center   
+}
+
+.main_menu{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center
+}
+
+.main_menu li{
+    display: inline-block;
+}
+
+.main_menu li a{
+    display: block;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    padding: 25px 152px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(240, 241, 255);
+}
+
+.main_menu li a:hover{
+    color: rgb(234, 158, 255)
+}
+
+.h2{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(../images/bg_noise.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Impact;
+    text-align: center;
+}
+
+.carousel-item image{
+    height: 300;
+}
+
+.title{
+    padding-top: 150px;
+    color: rgb(255, 255, 255);
+    font-family: Impact;
+    font-size: large;
+}
+.box{
+    border: solid  white;
+    width: 1000px;
+    margin:0 auto;
+    border-radius: 10px;
+    border-width: 0.5px;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+.box h1{
+    position: relative;
+    top: 35px;
+    display: block;
+    font-family: Yu Mincho;
+}
+.rshitei_profile{
+    position: relative;
+    left: 265px;
+    top: 210px;
+    display: block;
+}
+.rshitei_profile a{
+    background: rgb(159, 36, 36);
+    color: rgb(255, 255, 255);
+}
+.gosan_profile{
+    position: relative;
+    left: 265px;
+    top: 155px;
+    display: block;
+}
+.gosan_profile a{
+    background: rgb(159, 36, 36);
+    color: rgb(255, 255, 255);
+}
+.kane_profile{
+    position: relative;
+    left: 265px;
+    top: 165px;
+    display: block;
+}
+.kane_profile a{
+    background: rgb(159, 36, 36);
+    color: rgb(255, 255, 255);
+}
+.vkei{
+    position: relative;
+    left: 55px;
+    display: block;
+    width: 450px;
+}
+.tohu_twitter{
+    background-color: rgb(101, 152, 203);
+    color: rgb(255, 255, 255)
+}
+.box04{
+    position: relative;
+    top: 15px;
+}
+.box04 p{
+    position: relative;
+    left: 450px;
+    top: 35px;
+    display: block;
+    font-size: 18px;
+}
+.tohucyan{
+    width: 40%;
+}
+.takane_twitter{
+    background-color: rgb(221, 39, 39);
+    color: rgb(255, 255, 255)
+}
+.box05{
+    position: relative;
+    top: 15px;
+}
+.takane{
+    width: auto;
+    height: 500px;
+}
+.fukitis{
+    width: auto;
+    height: 500px;
+}
+
+.fukitis_twitter{
+    background-color: rgb(247, 44, 152);
+    color: rgb(255, 255, 255)
+}
+.info{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: Yu Mincho;
+}
